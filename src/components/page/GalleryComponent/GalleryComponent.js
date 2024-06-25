@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import React from 'react'
+
 
 const GalleryComponent = () => {
     const image1 = "/image/12345678.jpg";

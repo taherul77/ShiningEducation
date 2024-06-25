@@ -1,9 +1,10 @@
+import JapaneseLanguageComponent from '@/components/page/Service/JapaneseLanguage/JapaneseLanguageComponent'
 import React from 'react'
 
 const JapaneseLanguage = () => {
   return (
     <div>
-      regeg
+      <JapaneseLanguageComponent></JapaneseLanguageComponent>
     </div>
   )
 }

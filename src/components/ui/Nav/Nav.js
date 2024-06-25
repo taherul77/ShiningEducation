@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import logos from "../../../../public/image/Logo.png"
+import logos from "../../../../public/image/Logo.png";
 import NavItem from "./NavItem"; // Importing NavItem component
 
 import { usePathname } from "next/navigation"; // Importing usePathname hook
@@ -15,14 +15,13 @@ export default function Nav() {
   const handleNavToggle = () => {
     setIsNavOpen(!isNavOpen);
   };
-  
+
   // Effect to close the navigation when pathname changes
   useEffect(() => {
     setIsNavOpen(false);
   }, [pathname]);
 
-
-  const logo = "image/logo.png"
+  const logo = "image/logo.png";
   return (
     <>
       {/* Navigation bar */}
@@ -34,7 +33,7 @@ export default function Nav() {
         <div className="mx-auto max-w-7xl px-6 py-2">
           <div className="flex items-center justify-between mx-auto">
             {/* Logo with link */}
-            <Link href={`/`} className="" >
+            <Link href={`/`} className="">
               <Image
                 src={logos}
                 width={80}
@@ -51,18 +50,19 @@ export default function Nav() {
             </div>
 
             {/* Mobile menu toggle button */}
-            <div className="flex items-center z-50">
+            <div className="flex  items-center z-50">
               <div className="items-center text-white hidden lg:flex">
                 {/* Revolution link */}
                 <Link
-                  href={`/revolution`}
+                  href={`/contacts`}
                   className={`${
-                    pathname === `/revolution`
-                      ? "flex items-center px-4 active underline underline-offset-8 font-bold"
-                      : "flex items-center hover:underline underline-offset-8 px-4"
+                    pathname === `/contacts`
+                      ? "flex flex-col  px-4 active font-bold uppercase"
+                      : "flex flex-col uppercase px-4"
                   }`}
                 >
-                  revolution
+                  <p>Have any Questions?</p>
+                  <p>+8801761898215</p>
                 </Link>
               </div>
             </div>

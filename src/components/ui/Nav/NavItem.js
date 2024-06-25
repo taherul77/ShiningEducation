@@ -23,8 +23,8 @@ export default function NavItem() {
         <Link
           className={`link ${
             pathname === `/services`
-              ? " flex items-center px-4 active underline  underline-offset-8 font-bold"
-              : "flex items-center hover:underline underline-offset-8 px-4"
+              ? " flex items-center px-4 active underline  underline-offset-8 font-bold uppercase"
+              : "flex items-center hover:underline underline-offset-8 px-4 uppercase"
           }`}
           href={`/services`}
         >
@@ -77,6 +77,18 @@ export default function NavItem() {
           href={`/apply-now`}
         >
           apply now
+        </Link>
+      </li>
+      <li className="flex">
+        <Link
+          className={`link ${
+            pathname === `/contacts`
+              ? "flex items-center px-4 active underline underline-offset-8 font-bold uppercase"
+              : "flex items-center hover:underline underline-offset-8 px-4 uppercase"
+          }`}
+          href={`/contacts`}
+        >
+          contact us
         </Link>
       </li>
     </>

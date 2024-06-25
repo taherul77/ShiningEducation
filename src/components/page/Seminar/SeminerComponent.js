@@ -18,7 +18,7 @@ const SeminerComponent = () => {
             <Image
               height={400}
               width={400}
-              className="object-cover w-[500px]  h-[500px] md:rounded-none md:rounded-lg"
+              className="object-cover w-[500px]  h-[500px] md:rounded-lg"
               src={image3}
               alt=""
             />

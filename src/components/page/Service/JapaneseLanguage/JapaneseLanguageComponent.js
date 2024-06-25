@@ -18,7 +18,7 @@ const JapaneseLanguageComponent = () => {
             <Image
               height={400}
               width={400}
-              className="object-cover w-[500px]  h-[500px] md:rounded-none md:rounded-lg"
+              className="object-cover w-[500px]  h-[500px] md:rounded-lg"
               src={image1}
               alt=""
             />
@@ -76,7 +76,7 @@ const JapaneseLanguageComponent = () => {
             <Image
               height={400}
               width={400}
-              className="object-cover w-[500px]  h-[500px] md:rounded-none md:rounded-lg"
+              className="object-cover w-[500px]  h-[500px] md:rounded-lg"
               src={image4}
               alt=""
             />
@@ -87,7 +87,7 @@ const JapaneseLanguageComponent = () => {
             <Image
               height={400}
               width={400}
-              className="object-cover w-[500px]  h-[500px] md:rounded-none md:rounded-lg"
+              className="object-cover w-[500px]  h-[500px] md:rounded-lg"
               src={image5}
               alt=""
             />

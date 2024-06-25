@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import React from 'react'
 
 const WorkInJapan = () => {
     const image1 = "/image/12345678.jpg";
@@ -18,7 +17,7 @@ const WorkInJapan = () => {
             <Image
               height={400}
               width={400}
-              className="object-cover w-[500px]  h-[500px] md:rounded-none md:rounded-lg"
+              className="object-cover w-[500px]  h-[500px] md:rounded-lg"
               src={image3}
               alt=""
             />
@@ -43,7 +42,7 @@ const WorkInJapan = () => {
                 organization can help you find your destined place and provide
                 all the supports you need. With the proper help and guidance,
                 you can connect yourself with a greater place that is perfect
-                for your growth. You just don’t know that yet.
+                for your growth. You just don't know that yet.
               </p>
             </div>
           </div>
@@ -74,7 +73,7 @@ const WorkInJapan = () => {
             <Image
               height={400}
               width={400}
-              className="object-cover w-[500px]  h-[500px] md:rounded-none md:rounded-lg"
+              className="object-cover w-[500px]  h-[500px] md:rounded-lg"
               src={image6}
               alt=""
             />
@@ -85,7 +84,7 @@ const WorkInJapan = () => {
             <Image
               height={400}
               width={400}
-              className="object-cover w-[500px]  h-[500px] md:rounded-none md:rounded-lg"
+              className="object-cover w-[500px]  h-[500px] md:rounded-lg"
               src={image7}
               alt=""
             />

@@ -1,9 +1,10 @@
+import GalleryComponent from '@/components/page/GalleryComponent/GalleryComponent'
 import React from 'react'
 
 const page = () => {
   return (
     <div>
-      gallery
+      <GalleryComponent></GalleryComponent>
     </div>
   )
 }

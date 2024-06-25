@@ -9,6 +9,7 @@ const GalleryComponent = () => {
     const image5 = "/image/12345678.jpg";
     const image6 = "/image/12345678.jpg";
     const image7 = "/image/12345678.jpg";
+    
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
     

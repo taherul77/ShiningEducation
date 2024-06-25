@@ -1,4 +1,3 @@
-import Banner from '@/components/ui/Banner/Banner';
 import Image from 'next/image'
 import React from 'react'
 
@@ -10,17 +9,17 @@ const AboutComponent = () => {
     const image5 = "/image/12345678.jpg";
     const image6 = "/image/12345678.jpg";
     const image7 = "/image/12345678.jpg";
-    const images = "/image/banner5.jpg";
+    const images = "/images/banner5.png";
   return (
-    <div className="flex min-h-screen flex-col items-center justify-between ">
-        <Banner img={images} heading={"About Us "}></Banner>
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      
       <>
         <div className="py-10">
           <div className="container flex flex-col  md:flex-row  gap-8 ">
             <Image
               height={400}
               width={400}
-              className="object-cover w-[500px]  h-[500px] md:rounded-none"
+              className="object-cover w-[500px]  h-[500px] md:rounded-lg"
               src={image3}
               alt=""
             />
@@ -121,7 +120,7 @@ const AboutComponent = () => {
         </div>
       </>
     
-    </div>
+    </main>
   )
 }
 

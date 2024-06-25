@@ -1,9 +1,10 @@
+import AboutComponent from '@/components/page/AboutComponent/AboutComponent'
 import React from 'react'
 
 const page = () => {
   return (
     <div>
-      fdgdgsa
+      <AboutComponent></AboutComponent>
     </div>
   )
 }

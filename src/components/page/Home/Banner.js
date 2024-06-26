@@ -13,10 +13,10 @@ const Banner = () => {
   ];
 
   const texts = [
-    "Connecting opportunities and empowering careers",
-    "Every device become a storyteller we having a narrative of connectivity and intelligence",
-    "Engineering the innovative future",
-    "Every device become a storyteller we having a narrative of connectivity and intelligence",
+    "In this fast-moving world of competition, JAPAN is a dream destination for intellectual people who want to be successful in their life",
+    "In this fast-moving world of competition, JAPAN is a dream destination for intellectual people who want to be successful in their life",
+    "In this fast-moving world of competition, JAPAN is a dream destination for intellectual people who want to be successful in their life",
+    "In this fast-moving world of competition, JAPAN is a dream destination for intellectual people who want to be successful in their life",
   ];
 
   useEffect(() => {

@@ -13,7 +13,7 @@ const SeminerComponent = () => {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
          
       <>
-        <div className="py-10">
+        <div className="">
           <div className="container flex flex-col  md:flex-row  gap-8 ">
             <Image
               height={400}

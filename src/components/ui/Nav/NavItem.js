@@ -2,12 +2,13 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+
 export default function NavItem() {
   const pathname = usePathname();
 
   const navItem = (
     <>
-      <li className="flex">
+      <li className="flex relative group">
         <Link
           className={`link ${
             pathname === `/`
@@ -19,19 +20,48 @@ export default function NavItem() {
           Home
         </Link>
       </li>
-      <li className="flex">
+      <li className="flex relative group">
         <Link
           className={`link ${
             pathname === `/services`
-              ? " flex items-center px-4 active underline  underline-offset-8 font-bold uppercase"
+              ? "flex items-center px-4 active underline underline-offset-8 font-bold uppercase"
               : "flex items-center hover:underline underline-offset-8 px-4 uppercase"
           }`}
           href={`/services`}
         >
           Services
         </Link>
+        <div className="absolute pt-16">
+        <ul className=" hidden pt-2 group-hover:block bg-white rounded-lg text-black">
+          <li className="flex">
+            <Link
+              className="block px-4 py-2 hover:bg-gray-200"
+              href={`/services/japanese-language`}
+            >
+              japanese language
+            </Link>
+          </li>
+          <li className="flex">
+            <Link
+              className="block px-4 py-2 hover:bg-gray-200"
+              href={`/services/study-in-japan`}
+            >
+              study in japan
+            </Link>
+          </li>
+          <li className="flex">
+            <Link
+              className="block px-4 py-2 hover:bg-gray-200"
+              href={`/services/work-in-japan`}
+            >
+              work in japan
+            </Link>
+          </li>
+        </ul>
+        </div>
+       
       </li>
-      <li className="flex">
+      <li className="flex relative group">
         <Link
           className={`link ${
             pathname === `/seminar`
@@ -43,7 +73,7 @@ export default function NavItem() {
           Seminar
         </Link>
       </li>
-      <li className="flex">
+      <li className="flex relative group">
         <Link
           className={`link ${
             pathname === `/about-us`
@@ -55,7 +85,7 @@ export default function NavItem() {
           About us
         </Link>
       </li>
-      <li className="flex">
+      <li className="flex relative group">
         <Link
           className={`link ${
             pathname === `/gallery`
@@ -67,7 +97,7 @@ export default function NavItem() {
           Gallery
         </Link>
       </li>
-      <li className="flex">
+      <li className="flex relative group">
         <Link
           className={`link ${
             pathname === `/apply-now`
@@ -79,7 +109,7 @@ export default function NavItem() {
           apply now
         </Link>
       </li>
-      <li className="flex">
+      <li className="flex relative group">
         <Link
           className={`link ${
             pathname === `/contacts`

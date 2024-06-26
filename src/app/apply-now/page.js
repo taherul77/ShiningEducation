@@ -1,3 +1,4 @@
+import Apply from '@/components/page/Apply/Apply';
 import Banner from '@/components/ui/Banner/Banner'
 import React from 'react'
 
@@ -6,7 +7,7 @@ const page = () => {
   return (
     <div>
        <Banner img={images} heading={"apply now "}></Banner>
-      apply-now
+      <Apply></Apply>
     </div>
   )
 }

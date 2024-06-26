@@ -107,63 +107,88 @@ export default function Nav() {
             <li className="flex">
               <Link
                 className={`link ${
-                  pathname === `/solutions`
+                  pathname === `/`
+                    ? "flex items-center px-4 active underline underline-offset-8 text-xl font-bold uppercase"
+                    : "flex items-center uppercase hover:underline underline-offset-8 text-xl px-4"
+                }`}
+                href={`/`}
+              >
+                Home
+              </Link>
+            </li>
+            <li className="flex mt-4">
+              <Link
+                className={`link ${
+                  pathname === `/services`
+                    ? " flex items-center px-4 active underline  underline-offset-8 text-xl font-bold uppercase"
+                    : "flex items-center uppercase hover:underline underline-offset-8 text-xl px-4"
+                }`}
+                href={`/services`}
+              >
+                services
+              </Link>
+            </li>
+            <li className="flex mt-4">
+              <Link
+                className={`link ${
+                  pathname === `/seminar`
+                    ? "flex items-center px-4 active underline  underline-offset-8  text-xl font-bold uppercase"
+                    : "flex items-center uppercase hover:underline underline-offset-8 text-xl px-4"
+                }`}
+                href={`/seminar`}
+              >
+                seminar
+              </Link>
+            </li>
+            <li className="flex mt-4">
+              <Link
+                className={`link ${
+                  pathname === `/about-us`
                     ? "flex items-center px-4 active underline underline-offset-8 text-xl font-bold"
                     : "flex items-center hover:underline underline-offset-8 text-xl px-4"
                 }`}
-                href={`/solutions`}
+                href={`/about-us`}
               >
-                solutions
+                About us
               </Link>
             </li>
             <li className="flex mt-4">
               <Link
                 className={`link ${
-                  pathname === `/expertise`
-                    ? " flex items-center px-4 active underline  underline-offset-8 text-xl font-bold"
-                    : "flex items-center hover:underline underline-offset-8 text-xl px-4"
+                  pathname === `/gallery`
+                    ? "flex items-center px-4 active underline underline-offset-8 text-xl font-bold uppercase"
+                    : "flex items-center uppercase hover:underline underline-offset-8 text-xl px-4"
                 }`}
-                href={`/expertise`}
+                href={`/gallery`}
               >
-                expertise
+                gallery
               </Link>
             </li>
             <li className="flex mt-4">
               <Link
                 className={`link ${
-                  pathname === `/about`
-                    ? "flex items-center px-4 active underline  underline-offset-8  text-xl font-bold"
-                    : "flex items-center hover:underline underline-offset-8 text-xl px-4"
+                  pathname === `/apply-now`
+                    ? "flex items-center px-4 active underline underline-offset-8 text-xl font-bold uppercase"
+                    : "flex items-center uppercase hover:underline underline-offset-8 text-xl px-4"
                 }`}
-                href={`/about`}
+                href={`/apply-now`}
               >
-                about
+                apply now
               </Link>
             </li>
             <li className="flex mt-4">
               <Link
                 className={`link ${
-                  pathname === `/business`
-                    ? "flex items-center px-4 active underline underline-offset-8 text-xl font-bold"
-                    : "flex items-center hover:underline underline-offset-8 text-xl px-4"
+                  pathname === `/contacts`
+                    ? "flex items-center px-4 active underline underline-offset-8 text-xl font-bold uppercase"
+                    : "flex items-center uppercase hover:underline underline-offset-8 text-xl px-4"
                 }`}
-                href={`/business`}
+                href={`/contacts`}
               >
-                business
+                contact us
               </Link>
             </li>
-            <li className="flex mt-4">
-              <Link
-                className={`link ${
-                  pathname === `/revolution`
-                    ? "flex items-center px-4 active underline underline-offset-8 text-xl font-bold"
-                    : "flex items-center hover:underline underline-offset-8 text-xl px-4"
-                }`}
-                href={`/revolution`}
-              >
-                revolution
-              </Link>
-            </li>
+          
           </div>
         </div>
       )}

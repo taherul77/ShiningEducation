@@ -31,35 +31,34 @@ export default function NavItem() {
         >
           Services
         </Link>
-        <div className="absolute pt-16">
-        <ul className=" hidden pt-2 group-hover:block bg-white rounded-lg text-black">
-          <li className="flex">
-            <Link
-              className="block px-4 py-2 hover:bg-gray-200"
-              href={`/services/japanese-language`}
-            >
-              japanese language
-            </Link>
-          </li>
-          <li className="flex">
-            <Link
-              className="block px-4 py-2 hover:bg-gray-200"
-              href={`/services/study-in-japan`}
-            >
-              study in japan
-            </Link>
-          </li>
-          <li className="flex">
-            <Link
-              className="block px-4 py-2 hover:bg-gray-200"
-              href={`/services/work-in-japan`}
-            >
-              work in japan
-            </Link>
-          </li>
-        </ul>
+        <div className="absolute left-0 pt-16">
+          <ul className="hidden group-hover:block bg-white rounded-lg text-black">
+            <li className="flex w-52 hover:bg-gray-200">
+              <Link
+                className="block px-4 py-2  uppercase"
+                href={`/services/japanese-language`}
+              >
+                Japanese Language
+              </Link>
+            </li>
+            <li className="flex w-52 hover:bg-gray-200">
+              <Link
+                className="block px-4 py-2 hover:bg-gray-200 uppercase"
+                href={`/services/study-in-japan`}
+              >
+                Study in Japan
+              </Link>
+            </li>
+            <li className="flex w-52 hover:bg-gray-200">
+              <Link
+                className="block px-4 py-2 hover:bg-gray-200 uppercase"
+                href={`/services/work-in-japan`}
+              >
+                Work in Japan
+              </Link>
+            </li>
+          </ul>
         </div>
-       
       </li>
       <li className="flex relative group">
         <Link
@@ -82,7 +81,7 @@ export default function NavItem() {
           }`}
           href={`/about-us`}
         >
-          About us
+          About Us
         </Link>
       </li>
       <li className="flex relative group">
@@ -106,7 +105,7 @@ export default function NavItem() {
           }`}
           href={`/apply-now`}
         >
-          apply now
+          Apply Now
         </Link>
       </li>
       <li className="flex relative group">
@@ -118,7 +117,7 @@ export default function NavItem() {
           }`}
           href={`/contacts`}
         >
-          contact us
+          Contact Us
         </Link>
       </li>
     </>

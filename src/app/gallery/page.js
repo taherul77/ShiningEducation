@@ -1,5 +1,6 @@
 import GalleryComponent from '@/components/page/GalleryComponent/GalleryComponent'
 import Banner from '@/components/ui/Banner/Banner';
+import Wrapper from '@/components/ui/Wrapper/Wrapper';
 import React from 'react'
 
 const page = () => {
@@ -7,7 +8,10 @@ const page = () => {
   return (
     <div>
        <Banner img={images} heading={"Gallery"}></Banner>
-      <GalleryComponent></GalleryComponent>
+       <Wrapper>
+       <GalleryComponent></GalleryComponent>
+       </Wrapper>
+      
     </div>
   )
 }

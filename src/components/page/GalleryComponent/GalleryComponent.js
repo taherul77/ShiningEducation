@@ -11,10 +11,10 @@ const GalleryComponent = () => {
     const image7 = "/image/12345678.jpg";
     
   return (
-    <main className=" flex min-h-screen flex-col items-center justify-between p-24">
+    <div className=" flex  flex-col items-center justify-between">
     
-      <div className="container flex flex-col  mx-auto ">
-        <h5 className="text-md  lg:text-2xl  font-bold ">
+      <div className=" flex flex-col  mx-auto ">
+        <h5 className="text-md  lg:text-2xl  font-bold py-10 ">
           1st Gallery
         </h5>
         <div className="flex flex-col w-full justify-center items-center sm:flex-row">
@@ -120,7 +120,7 @@ const GalleryComponent = () => {
           </div>
         </div>
       </div>
-    </main>
+    </div>
   )
 }
 

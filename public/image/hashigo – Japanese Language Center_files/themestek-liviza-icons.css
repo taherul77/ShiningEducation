@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+ @font-face {
+  font-family: 'themestek-liviza-icons';
+  src: url('../font/themestek-liviza-icons.eot?33920670');
+  src: url('../font/themestek-liviza-icons.eot?33920670#iefix') format('embedded-opentype'),
+       url('../font/themestek-liviza-icons.woff2?33920670') format('woff2'),
+       url('../font/themestek-liviza-icons.woff?33920670') format('woff'),
+       url('../font/themestek-liviza-icons.ttf?33920670') format('truetype'),
+       url('../font/themestek-liviza-icons.svg?33920670#themestek-liviza-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'themestek-liviza-icons';
+    src: url('../font/themestek-liviza-icons.svg?33920670#themestek-liviza-icons') format('svg');
+  }
+}
+*/
+ 
+ [class^="themestek-liviza-icon-"]:before, [class*=" themestek-liviza-icon-"]:before {
+  font-family: "themestek-liviza-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.themestek-liviza-icon-google-drive:before { content: '\e800'; } /* '' */
+.themestek-liviza-icon-issuu:before { content: '\e801'; } /* '' */
+.themestek-liviza-icon-user:before { content: '\e802'; } /* '' */
+.themestek-liviza-icon-music:before { content: '\e803'; } /* '' */
+.themestek-liviza-icon-video:before { content: '\e804'; } /* '' */
+.themestek-liviza-icon-quote:before { content: '\e805'; } /* '' */
+.themestek-liviza-icon-aside:before { content: '\e806'; } /* '' */
+.themestek-liviza-icon-rss:before { content: '\e807'; } /* '' */
+.themestek-liviza-icon-angle-left:before { content: '\e808'; } /* '' */
+.themestek-liviza-icon-angle-right:before { content: '\e809'; } /* '' */
+.themestek-liviza-icon-status:before { content: '\e80a'; } /* '' */
+.themestek-liviza-icon-dribbble:before { content: '\e80b'; } /* '' */
+.themestek-liviza-icon-facebook:before { content: '\e80c'; } /* '' */
+.themestek-liviza-icon-flickr:before { content: '\e80d'; } /* '' */
+.themestek-liviza-icon-gplus:before { content: '\e80e'; } /* '' */
+.themestek-liviza-icon-instagram:before { content: '\e80f'; } /* '' */
+.themestek-liviza-icon-linkedin:before { content: '\e810'; } /* '' */
+.themestek-liviza-icon-pinterest:before { content: '\e811'; } /* '' */
+.themestek-liviza-icon-twitter:before { content: '\e812'; } /* '' */
+.themestek-liviza-icon-vk:before { content: '\e813'; } /* '' */
+.themestek-liviza-icon-xing:before { content: '\e814'; } /* '' */
+.themestek-liviza-icon-yelp:before { content: '\e815'; } /* '' */
+.themestek-liviza-icon-youtube:before { content: '\e816'; } /* '' */
+.themestek-liviza-icon-gallery:before { content: '\e817'; } /* '' */
+.themestek-liviza-icon-plus:before { content: '\e818'; } /* '' */
+.themestek-liviza-icon-link:before { content: '\e819'; } /* '' */
+.themestek-liviza-icon-tag:before { content: '\e81a'; } /* '' */
+.themestek-liviza-icon-clock:before { content: '\e81b'; } /* '' */
+.themestek-liviza-icon-heart:before { content: '\e81c'; } /* '' */
+.themestek-liviza-icon-sticky:before { content: '\e81d'; } /* '' */
+.themestek-liviza-icon-marker:before { content: '\e81e'; } /* '' */
+.themestek-liviza-icon-comment:before { content: '\e81f'; } /* '' */
+.themestek-liviza-icon-chat:before { content: '\e820'; } /* '' */
+.themestek-liviza-icon-podcast:before { content: '\e821'; } /* '' */
+.themestek-liviza-icon-houzz:before { content: '\e822'; } /* '' */
+.themestek-liviza-icon-image:before { content: '\e823'; } /* '' */
+.themestek-liviza-icon-cart:before { content: '\e824'; } /* '' */
+.themestek-liviza-icon-search:before { content: '\e825'; } /* '' */
+.themestek-liviza-icon-arrow-right:before { content: '\e826'; } /* '' */
+.themestek-liviza-icon-pencil:before { content: '\e827'; } /* '' */
+.themestek-liviza-icon-mobile:before { content: '\e828'; } /* '' */
+.themestek-liviza-icon-comment-1:before { content: '\e829'; } /* '' */
+.themestek-liviza-icon-world:before { content: '\e82a'; } /* '' */
+.themestek-liviza-icon-location-pin:before { content: '\e82b'; } /* '' */
+.themestek-liviza-icon-quote-left:before { content: '\e82c'; } /* '' */
+.themestek-liviza-icon-close:before { content: '\e82d'; } /* '' */
+.themestek-liviza-icon-comments-smiley:before { content: '\e82e'; } /* '' */
+.themestek-liviza-icon-category:before { content: '\e82f'; } /* '' */
+.themestek-liviza-icon-tag-1:before { content: '\e830'; } /* '' */
+.themestek-liviza-icon-shift-right:before { content: '\e831'; } /* '' */
+.themestek-liviza-icon-mail:before { content: '\e832'; } /* '' */
+.themestek-liviza-icon-phone:before { content: '\e833'; } /* '' */
+.themestek-liviza-icon-arrow-left:before { content: '\e834'; } /* '' */
+.themestek-liviza-icon-gallery-1:before { content: '\e835'; } /* '' */
+.themestek-liviza-icon-music-alt:before { content: '\e836'; } /* '' */
+.themestek-liviza-icon-shopping-cart:before { content: '\e837'; } /* '' */
+.themestek-liviza-icon-heart-empty:before { content: '\e838'; } /* '' */
+.themestek-liviza-icon-check:before { content: '\e839'; } /* '' */
+.themestek-liviza-icon-arrow-left-1:before { content: '\e83a'; } /* '' */
+.themestek-liviza-icon-plus-1:before { content: '\e83b'; } /* '' */
+.themestek-liviza-icon-unlink:before { content: '\e83c'; } /* '' */
+.themestek-liviza-icon-quote-right:before { content: '\e83d'; } /* '' */
+.themestek-liviza-icon-home:before { content: '\e83e'; } /* '' */
+.themestek-liviza-icon-angle-double-right:before { content: '\e83f'; } /* '' */
+.themestek-liviza-icon-angle-double-left:before { content: '\e840'; } /* '' */
+.themestek-liviza-icon-resize-full:before { content: '\e841'; } /* '' */
+.themestek-liviza-icon-eye:before { content: '\e842'; } /* '' */
+.themestek-liviza-icon-star:before { content: '\e843'; } /* '' */
+.themestek-liviza-icon-calendar:before { content: '\e844'; } /* '' */
+.themestek-liviza-icon-chat-1:before { content: '\e845'; } /* '' */
+.themestek-liviza-icon-search-1:before { content: '\e846'; } /* '' */
+.themestek-liviza-icon-left-thin:before { content: '\e847'; } /* '' */
+.themestek-liviza-icon-right-thin:before { content: '\e848'; } /* '' */
+.themestek-liviza-icon-headphone-alt:before { content: '\e849'; } /* '' */
+.themestek-liviza-icon-quotation:before { content: '\e84a'; } /* '' */
+.themestek-liviza-icon-envelope:before { content: '\e84b'; } /* '' */
+.themestek-liviza-icon-phone-call:before { content: '\e84c'; } /* '' */
+.themestek-liviza-icon-file:before { content: '\e84d'; } /* '' */
+.themestek-liviza-icon-search-2:before { content: '\e84e'; } /* '' */
+.themestek-liviza-icon-play:before { content: '\e84f'; } /* '' */
+.themestek-liviza-icon-right-arrow:before { content: '\e850'; } /* '' */
+.themestek-liviza-icon-level-down:before { content: '\e851'; } /* '' */
+.themestek-liviza-icon-two-quotes:before { content: '\e852'; } /* '' */
+.themestek-liviza-icon-next:before { content: '\e853'; } /* '' */
+.themestek-liviza-icon-play-1:before { content: '\e854'; } /* '' */
+.themestek-liviza-icon-chat-2:before { content: '\e855'; } /* '' */
+.themestek-liviza-icon-search-3:before { content: '\e856'; } /* '' */
+.themestek-liviza-icon-newsletter:before { content: '\e857'; } /* '' */
+.themestek-liviza-icon-right-arrow-(1):before { content: '\e858'; } /* '' */
+.themestek-liviza-icon-left-dir:before { content: '\e859'; } /* '' */
+.themestek-liviza-icon-right-dir:before { content: '\e85a'; } /* '' */
+.themestek-liviza-icon-mail-alt:before { content: '\f0e0'; } /* '' */
+.themestek-liviza-icon-comment-empty:before { content: '\f0e5'; } /* '' */
+.themestek-liviza-icon-angle-up:before { content: '\f106'; } /* '' */
+.themestek-liviza-icon-angle-down:before { content: '\f107'; } /* '' */
+.themestek-liviza-icon-quote-right-1:before { content: '\f10e'; } /* '' */
+.themestek-liviza-icon-tumblr:before { content: '\f173'; } /* '' */
+.themestek-liviza-icon-stumbleupon:before { content: '\f1a4'; } /* '' */
+.themestek-liviza-icon-digg:before { content: '\f1a6'; } /* '' */
+.themestek-liviza-icon-reddit:before { content: '\f281'; } /* '' */
+.themestek-liviza-icon-vimeo:before { content: '󨇎'; } /* '\e81ce' */

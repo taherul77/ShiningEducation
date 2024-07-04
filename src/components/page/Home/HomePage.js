@@ -4,6 +4,8 @@ import About from "./About/About";
 import Category from "./Category/Category";
 import Success from "./Success/Success";
 import Contact from "./Contact/Contact";
+import Wrapper from "@/components/ui/Wrapper/Wrapper";
+import Collage from "./Collage/Collage";
 
 const HomePage = () => {
   return (
@@ -11,10 +13,21 @@ const HomePage = () => {
       <Banner></Banner>
 
       <>
-        <Category></Category>
-        <About></About>
-        <Success></Success>
-        <Contact></Contact>
+        <Wrapper>
+          <Category></Category>
+        </Wrapper>
+        <Wrapper>
+          <About></About>
+        </Wrapper>
+        <Wrapper>
+          <Success></Success>
+        </Wrapper>
+        <Wrapper>
+          <Collage></Collage>
+        </Wrapper>
+        <Wrapper>
+          <Contact></Contact>
+        </Wrapper>
       </>
     </div>
   );

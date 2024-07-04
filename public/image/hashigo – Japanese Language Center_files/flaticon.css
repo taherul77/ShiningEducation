@@ -1,0 +1,75 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 10/12/2019 06:29
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="themestek-liviza-business-icon-"]:before, [class*=" themestek-liviza-business-icon-"]:before,
+[class^="themestek-liviza-business-icon-"]:after, [class*=" themestek-liviza-business-icon-"]:after {   
+  font-family: Flaticon;
+  font-style: normal;
+}
+
+.themestek-liviza-business-icon-placeholder:before { content: "\f100"; }
+.themestek-liviza-business-icon-pdf:before { content: "\f101"; }
+.themestek-liviza-business-icon-news:before { content: "\f102"; }
+.themestek-liviza-business-icon-call:before { content: "\f103"; }
+.themestek-liviza-business-icon-document:before { content: "\f104"; }
+.themestek-liviza-business-icon-right-arrow:before { content: "\f105"; }
+.themestek-liviza-business-icon-right-arrow-1:before { content: "\f106"; }
+.themestek-liviza-business-icon-check:before { content: "\f107"; }
+.themestek-liviza-business-icon-chat:before { content: "\f108"; }
+.themestek-liviza-business-icon-search:before { content: "\f109"; }
+.themestek-liviza-business-icon-student:before { content: "\f10a"; }
+.themestek-liviza-business-icon-passport:before { content: "\f10b"; }
+.themestek-liviza-business-icon-resume:before { content: "\f10c"; }
+.themestek-liviza-business-icon-employee:before { content: "\f10d"; }
+.themestek-liviza-business-icon-briefcase:before { content: "\f10e"; }
+.themestek-liviza-business-icon-list:before { content: "\f10f"; }
+.themestek-liviza-business-icon-envelope:before { content: "\f110"; }
+.themestek-liviza-business-icon-newsletter:before { content: "\f111"; }
+.themestek-liviza-business-icon-destination:before { content: "\f112"; }
+.themestek-liviza-business-icon-airplane:before { content: "\f113"; }
+.themestek-liviza-business-icon-walk:before { content: "\f114"; }
+.themestek-liviza-business-icon-family:before { content: "\f115"; }
+.themestek-liviza-business-icon-mechanic:before { content: "\f116"; }
+.themestek-liviza-business-icon-suitcase:before { content: "\f117"; }
+.themestek-liviza-business-icon-white-house:before { content: "\f118"; }
+.themestek-liviza-business-icon-resident:before { content: "\f119"; }
+.themestek-liviza-business-icon-consulting:before { content: "\f11a"; }
+.themestek-liviza-business-icon-coaching:before { content: "\f11b"; }
+.themestek-liviza-business-icon-open-book:before { content: "\f11c"; }
+.themestek-liviza-business-icon-mortarboard:before { content: "\f11d"; }
+.themestek-liviza-business-icon-meeting:before { content: "\f11e"; }
+.themestek-liviza-business-icon-certificate:before { content: "\f11f"; }
+.themestek-liviza-business-icon-user-interface:before { content: "\f120"; }
+.themestek-liviza-business-icon-note:before { content: "\f121"; }
+.themestek-liviza-business-icon-study:before { content: "\f122"; }
+.themestek-liviza-business-icon-diploma:before { content: "\f123"; }
+.themestek-liviza-business-icon-paper:before { content: "\f124"; }
+.themestek-liviza-business-icon-calendar:before { content: "\f125"; }
+.themestek-liviza-business-icon-board:before { content: "\f126"; }
+.themestek-liviza-business-icon-worker:before { content: "\f127"; }
+.themestek-liviza-business-icon-test:before { content: "\f128"; }
+.themestek-liviza-business-icon-university:before { content: "\f129"; }
+.themestek-liviza-business-icon-homework:before { content: "\f12a"; }
+.themestek-liviza-business-icon-study-1:before { content: "\f12b"; }
+.themestek-liviza-business-icon-flask:before { content: "\f12c"; }

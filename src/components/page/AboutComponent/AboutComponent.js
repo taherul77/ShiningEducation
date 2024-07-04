@@ -11,7 +11,7 @@ const AboutComponent = () => {
     const image7 = "/image/12345678.jpg";
     const images = "/images/banner5.png";
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between">
       
       <>
         <div className="py-10">

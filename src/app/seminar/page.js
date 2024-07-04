@@ -1,5 +1,6 @@
 import SeminerComponent from '@/components/page/Seminar/SeminerComponent'
 import Banner from '@/components/ui/Banner/Banner';
+import Wrapper from '@/components/ui/Wrapper/Wrapper';
 import React from 'react'
 
 const Page = () => {
@@ -7,7 +8,11 @@ const Page = () => {
   return (
     <div>
        <Banner img={images} heading={"SEMINAR"}></Banner>
-      <SeminerComponent></SeminerComponent>
+       <Wrapper>
+       <SeminerComponent></SeminerComponent>
+
+       </Wrapper>
+     
     </div>
   )
 }

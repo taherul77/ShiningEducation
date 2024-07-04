@@ -11,7 +11,7 @@ const GalleryComponent = () => {
     const image7 = "/image/12345678.jpg";
     
   return (
-    <div className=" flex  flex-col items-center justify-between">
+    <div className=" flex flex-col items-center justify-between">
     
       <div className=" flex flex-col  mx-auto ">
         <h5 className="text-md  lg:text-2xl  font-bold py-10 ">
@@ -60,7 +60,7 @@ const GalleryComponent = () => {
               height={600}
               width={500}
               alt="Rectangle"
-              src={image1}
+              src={image4}
             />
           </div>
           <div className="flex flex-col w-full justify-center items-center text-center">
@@ -79,7 +79,7 @@ const GalleryComponent = () => {
               height={600}
               width={500}
               alt="Rectangle"
-              src={image3}
+              src={image5}
             />
           </div>
         </div>
@@ -96,7 +96,7 @@ const GalleryComponent = () => {
               height={600}
               width={500}
               alt="Rectangle"
-              src={image1}
+              src={image6}
             />
           </div>
           <div className="flex flex-col w-full justify-center items-center text-center">

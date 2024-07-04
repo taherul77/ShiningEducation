@@ -6,7 +6,7 @@ const Category = () => {
     const icon3= "/image/icons/1.png"
   return (
     <div>
-      <div className="grid lg:grid-cols-3 gap-5 mt-5 lg:mx-28 mx-5">
+      <div className="grid lg:grid-cols-3 gap-5 ">
         <div className="bg-blue-300 px-10 py-10 rounded-md relative">
           <div className="flex items-center gap-5 ">
             <img src={icon1} alt="" className="w-20" />

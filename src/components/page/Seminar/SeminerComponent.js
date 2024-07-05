@@ -35,7 +35,12 @@ const SeminerComponent = () => {
                 Venue: Dhaka, Bangladesh
               </p>
               <p className="mb-3 font-normal text-gray-700">
-                Contact: +8801761898215
+                Contact: +8801764323378
+               
+              </p>
+              <p className="mb-3 font-normal text-gray-700">
+              +8801945604616
+               
               </p>
             </div>
           </div>

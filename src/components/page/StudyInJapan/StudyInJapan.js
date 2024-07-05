@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 
 const StudyInJapan = () => {
-  const image1 = "/image/12345678.jpg";
+  const image1 = "/image/Hokkaido-University.png";
   const image2 = "/image/12345678.jpg";
   const image3 = "/image/12345678.jpg";
   const image4 = "/image/12345678.jpg";

@@ -32,7 +32,8 @@ const Footer = () => {
                     href="/"
                     className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
-                     +8801761898215
+                     +8801764323378
+                     
 
                   </a>
                 </li>
@@ -41,7 +42,7 @@ const Footer = () => {
                     href="/"
                     className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
-                     +8801404614330
+                     +8801945604616
  
                   </a>
                 </li>
@@ -50,7 +51,7 @@ const Footer = () => {
                     href="/"
                     className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
-                    info@hashigojlc.com
+                    shiningeducation.bd@gmail.com
 
                   </a>
                 </li>
@@ -59,7 +60,7 @@ const Footer = () => {
                     href="/"
                     className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
-                     hashigojlc@gmail.com
+                     SHINING EDUCATION
                      
                   </a>
                 </li>
@@ -68,7 +69,7 @@ const Footer = () => {
                     href="/"
                     className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
-                     3rd Floor, House No: 509, West Shewrapara, Mirpur, Dhaka-1216
+                     810/2, West Shewrapara ( Bus Stand ), Mirpur, Dhaka - 1216
                      
                   </a>
                 </li>
@@ -130,7 +131,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col justify-between pt-5 pb-10 border-t sm:flex-row">
           <p className="text-sm text-white">
-          Copyright © 2024 Hashigo JLC | Developed by SK TAHERUL ISLAM TAZ
+          Copyright © 2024 SHINING EDUCATION | Developed by SK TAHERUL ISLAM TAZ
           </p>
           <div className="flex items-center mt-4 space-x-4 sm:mt-0">
             <a

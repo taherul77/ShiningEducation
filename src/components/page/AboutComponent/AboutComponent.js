@@ -26,7 +26,7 @@ const AboutComponent = () => {
             <div className="flex flex-col ">
               <p className="mb-3 font-normal text-gray-400 ">ABOUT AGENCY</p>
               <h5 className="mb-2 text-4xl  text-gray-900 font-bold  pb-5">
-                About Hashigo JLC
+                About SHINING EDUCATION
               </h5>
               <p className="mb-3 font-normal text-gray-700 ">
                 In this fast-moving world of competition, JAPAN is a dream
@@ -42,11 +42,11 @@ const AboutComponent = () => {
               <p className="mb-3 font-normal text-gray-700">
                 With the vision to provide proper & complete consultancy on
                 language efficiency to the interested students & job seekers, we
-                commenced the ”Hashigo Japanese Language Center”. You can
+                commenced the ”SHINING EDUCATION Japanese Language Center”. You can
                 contact us for Japanese Language learning, Student & Job Visa
                 Processing, and job finding purposes. We can ensure the best
                 possible services & it will be a life-changing journey between
-                you and Hashigo JLC. We will be there from the beginning to the
+                you and SHINING EDUCATION. We will be there from the beginning to the
                 end of your voyage.
               </p>
             </div>

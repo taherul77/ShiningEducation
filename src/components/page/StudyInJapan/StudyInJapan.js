@@ -10,7 +10,7 @@ const StudyInJapan = () => {
   const image6 = "/image/12345678.jpg";
   const image7 = "/image/12345678.jpg";
   return (
-    <div className="container mx-auto flex  flex-col items-center justify-between py-10 px-5 lg:px-24 gap-8">
+    <div className="container mx-auto flex  flex-col items-center justify-between py-10  lg:px-24 gap-8">
       <>
         <div className="">
           <div className="container flex flex-col  md:flex-row  lg:gap-48 ">

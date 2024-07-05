@@ -23,8 +23,8 @@ const Collage = () => {
                 alt="Rectangle"
                 src={image1}
               />
-              <h5 className="text-md lg:text-2xl uppercase font-bold">
-                In Business
+              <h5 className="text-md lg:text-2xl uppercase font-bold py-5">
+              Kyushu University
               </h5>
             </div>
             <div className="flex flex-col w-full justify-center items-center text-center">
@@ -35,8 +35,8 @@ const Collage = () => {
                 alt="Rectangle"
                 src={image2}
               />
-              <h5 className="text-md lg:text-2xl uppercase font-bold">
-                Projects Completed
+              <h5 className="text-md lg:text-2xl uppercase font-bold py-5">
+              Hokkaido University
               </h5>
             </div>
   
@@ -48,8 +48,47 @@ const Collage = () => {
                 alt="Rectangle"
                 src={image3}
               />
-              <h5 className="text-md lg:text-2xl uppercase font-bold">
-                Achievements
+              <h5 className="text-md lg:text-2xl uppercase font-bold py-5">
+              Kyoto University
+              </h5>
+            </div>
+          </div>
+          <div className="flex flex-col w-full justify-center items-center sm:flex-row gap-8">
+            <div className="flex flex-col w-full justify-center items-center text-center">
+              <Image
+                className="py-5 hover:scale-105 transition duration-300"
+                height={600}
+                width={500}
+                alt="Rectangle"
+                src={image1}
+              />
+              <h5 className="text-md lg:text-2xl uppercase font-bold py-5">
+              Kyushu University
+              </h5>
+            </div>
+            <div className="flex flex-col w-full justify-center items-center text-center">
+              <Image
+                className="py-5 hover:scale-105 transition duration-300"
+                height={600}
+                width={500}
+                alt="Rectangle"
+                src={image2}
+              />
+              <h5 className="text-md lg:text-2xl uppercase font-bold py-5">
+              Hokkaido University
+              </h5>
+            </div>
+  
+            <div className="flex flex-col w-full justify-center items-center text-center">
+              <Image
+                className="py-5 hover:scale-105 transition duration-300"
+                height={600}
+                width={500}
+                alt="Rectangle"
+                src={image3}
+              />
+              <h5 className="text-md lg:text-2xl uppercase font-bold py-5">
+              Kyoto University
               </h5>
             </div>
           </div>

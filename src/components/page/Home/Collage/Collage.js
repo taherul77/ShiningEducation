@@ -4,14 +4,14 @@ import React from 'react'
 
 const Collage = () => {
     const image1 = "/image/Hokkaido-University.png";
-    const image2 = "/image/12345678.jpg";
-    const image3 = "/image/12345678.jpg";
-    const image4 = "/image/12345678.jpg";
-    const image5 = "/image/12345678.jpg";
-    const image6 = "/image/12345678.jpg";
-    const image7 = "/image/12345678.jpg";
+    const image2 = "/image/Hokkaido-University.png";
+    const image3 = "/image/Hokkaido-University.png";
+    const image4 = "/image/Hokkaido-University.png";
+    const image5 = "/image/Hokkaido-University.png";
+    const image6 = "/image/Hokkaido-University.png";
+    const image7 = "/image/Hokkaido-University.png";
     return (
-      <main className="flex  flex-col items-center justify-between">
+      <div className="flex  flex-col items-center justify-between py-10  lg:px-24 gap-8">
         <Section heading={"Choose your School / College / University"}></Section>
         <div className="container flex flex-col items-center mx-auto ">
           <div className="flex flex-col w-full justify-center items-center sm:flex-row gap-8">
@@ -93,7 +93,7 @@ const Collage = () => {
             </div>
           </div>
         </div>
-      </main>
+      </div>
     );
 }
 export default Collage

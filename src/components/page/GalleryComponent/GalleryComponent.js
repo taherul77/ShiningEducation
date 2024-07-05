@@ -11,7 +11,7 @@ const GalleryComponent = () => {
     const image7 = "/image/12345678.jpg";
     
   return (
-    <div className=" flex flex-col items-center justify-between">
+    <div className=" flex flex-col items-center justify-between py-10  lg:px-24 gap-8">
     
       <div className=" flex flex-col  mx-auto ">
         <h5 className="text-md  lg:text-2xl  font-bold py-10 ">

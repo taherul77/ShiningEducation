@@ -5,7 +5,7 @@ const About = () => {
     const aboutImg="/image/about/1.-About-us-1 (1).jpg"
   return (
     <div>
-      <div className="grid lg:grid-cols-2 gap-10 my-10">
+      <div className="grid lg:grid-cols-2 py-10  lg:px-24 gap-8">
         <div>
           <img src={aboutImg} alt="" />
         </div>

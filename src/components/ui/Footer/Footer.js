@@ -46,15 +46,7 @@ const Footer = () => {
  
                   </a>
                 </li>
-                <li>
-                  <a
-                    href="/"
-                    className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
-                  >
-                    shiningeducation.bd@gmail.com
-
-                  </a>
-                </li>
+               
                 <li>
                   <a
                     href="/"
@@ -71,6 +63,15 @@ const Footer = () => {
                   >
                      810/2, West Shewrapara ( Bus Stand ), Mirpur, Dhaka - 1216
                      
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/"
+                    className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
+                  >
+                    shiningeducation.bd@gmail.com
+
                   </a>
                 </li>
               </ul>

@@ -4,7 +4,7 @@ const Success = () => {
     const successImg = "/image/about/2.-Success-Stories.jpg"
   return (
     <div>
-       <div className="grid lg:grid-cols-2 gap-10 ">
+       <div className="grid lg:grid-cols-2 py-10  lg:px-24 gap-8">
         <div>
           <img src={successImg} alt="" />
         </div>

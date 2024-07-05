@@ -4,7 +4,7 @@ const Apply = () => {
   const contactImg = "/image/contact/3.-Need-More-Info-Rotate-left.jpg";
   return (
     <div className="">
-      <div className="grid max-w-screen-xl grid-cols-1 gap-8  mx-auto rounded-lg md:grid-cols-2   ">
+      <div className="grid max-w-screen-xl grid-cols-1 py-10  lg:px-24 gap-8  mx-auto rounded-lg md:grid-cols-2   ">
         <div className="flex flex-col justify-between">
           <img src={contactImg} alt="" />
         </div>

@@ -10,7 +10,7 @@ const Service = () => {
   const image6 = "/image/12345678.jpg";
   const image7 = "/image/12345678.jpg";
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between">
+    <main className="flex  flex-col items-center justify-between py-10  lg:px-24 gap-8">
       <div className="container flex flex-col items-center mx-auto ">
         <div className="flex flex-col w-full justify-center items-center sm:flex-row gap-8">
           <div className="flex flex-col w-full justify-center items-center text-center">

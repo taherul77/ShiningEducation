@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
     const contactImg = "/image/contact/3.-Need-More-Info-Rotate-left.jpg"
   return (
-    <div className="">
+    <div className=" ">
       <div className="text-center">
         <h2 className="text-5xl text-gray-800">Need More Info</h2>
         <h1 className="text-5xl font-bold pt-2">Feel Free to Contact</h1>

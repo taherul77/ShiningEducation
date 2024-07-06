@@ -14,9 +14,9 @@ const Banner = () => {
 
   const texts = [
     "In this fast-moving world of competition, JAPAN is a dream destination for intellectual people who want to be successful in their life",
-    "In this fast-moving world of competition, JAPAN is a dream destination for intellectual people who want to be successful in their life",
-    "In this fast-moving world of competition, JAPAN is a dream destination for intellectual people who want to be successful in their life",
-    "In this fast-moving world of competition, JAPAN is a dream destination for intellectual people who want to be successful in their life",
+    "If you are looking for detailed guidelines to get admission into a Japanese University, then you are in the right place.",
+    "We are here to help you find your destined position that you are looking to pursue. With all the necessary support ready to provide you",
+    "We provide Japanese language course, document aid, and other necessary support for the students and immigrants.",
   ];
 
   useEffect(() => {

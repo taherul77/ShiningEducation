@@ -2,13 +2,11 @@ import Image from "next/image";
 import React from "react";
 
 const StudyInJapan = () => {
-  const image1 = "/image/Hokkaido-University.png";
-  const image2 = "/image/12345678.jpg";
-  const image3 = "/image/12345678.jpg";
-  const image4 = "/image/12345678.jpg";
-  const image5 = "/image/12345678.jpg";
-  const image6 = "/image/12345678.jpg";
-  const image7 = "/image/12345678.jpg";
+  const image1 = "/image/234.png";
+  const image2 = "/image/1.-Why-Choose-Japan-530x540.jpg";
+  const image3 = "/image/Tokyo-Institute-of-Technology.png";
+  const image4 = "/image/3.-Job-Settlement-530x540.jpg";
+  
   return (
     <div className="container mx-auto flex  flex-col items-center justify-between py-10  lg:px-24 gap-8">
       <>
@@ -50,7 +48,7 @@ const StudyInJapan = () => {
               height={400}
               width={400}
               className="object-cover w-[500px]  h-[500px] md:rounded-lg"
-              src={image4}
+              src={image1}
               alt=""
             />
           </div>
@@ -61,12 +59,12 @@ const StudyInJapan = () => {
               height={400}
               width={400}
               className="object-cover w-[500px]  h-[500px] md:rounded-lg"
-              src={image4}
+              src={image2}
               alt=""
             />
             <div className="flex flex-col ">
               <h5 className="mb-2 text-4xl font-bold text-gray-900  pb-5">
-                For Study & Job
+              Why Choose Japan
               </h5>
               <p className="mb-3 font-normal text-gray-700 text-justify">
                 Being one of the developed and facilitated countries, Japan is
@@ -115,7 +113,7 @@ const StudyInJapan = () => {
               height={400}
               width={400}
               className="object-cover w-[500px]  h-[500px] md:rounded-lg"
-              src={image4}
+              src={image3}
               alt=""
             />
           </div>

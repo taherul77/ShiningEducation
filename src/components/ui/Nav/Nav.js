@@ -62,7 +62,7 @@ export default function Nav() {
                   }`}
                 >
                   <p>Have any Questions?</p>
-                  <p>+8801761898215</p>
+                  <p>+8801764323378</p>
                 </Link>
               </div>
             </div>
@@ -188,7 +188,6 @@ export default function Nav() {
                 contact us
               </Link>
             </li>
-          
           </div>
         </div>
       )}

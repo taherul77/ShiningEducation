@@ -3,12 +3,9 @@ import Image from 'next/image';
 
 const JapaneseLanguageComponent = () => {
     const image1 = "/image/12345678.jpg";
-    const image2 = "/image/12345678.jpg";
-    const image3 = "/image/12345678.jpg";
-    const image4 = "/image/12345678.jpg";
-    const image5 = "/image/12345678.jpg";
-    const image6 = "/image/12345678.jpg";
-    const image7 = "/image/12345678.jpg";
+    const image2 = "/image/2.-For-Study-Job-530x540.jpg";
+    const image3 = "/image/3.-For-Residency-Citizenship-530x540.jpg";
+   
     return (
       <main className="flex  flex-col items-center justify-between py-10  lg:px-24 gap-8">
       
@@ -77,7 +74,7 @@ const JapaneseLanguageComponent = () => {
               height={400}
               width={400}
               className="object-cover w-[500px]  h-[500px] md:rounded-lg"
-              src={image4}
+              src={image2}
               alt=""
             />
           </div>
@@ -88,7 +85,7 @@ const JapaneseLanguageComponent = () => {
               height={400}
               width={400}
               className="object-cover w-[500px]  h-[500px] md:rounded-lg"
-              src={image5}
+              src={image3}
               alt=""
             />
             <div className="flex flex-col ">

@@ -6,6 +6,7 @@ import Success from "./Success/Success";
 import Contact from "./Contact/Contact";
 import Wrapper from "@/components/ui/Wrapper/Wrapper";
 import Collage from "./Collage/Collage";
+import Testimonials from "./Testimonials/Testimonials";
 
 const HomePage = () => {
   return (
@@ -25,9 +26,13 @@ const HomePage = () => {
         <Wrapper>
           <Collage></Collage>
         </Wrapper>
-        <Wrapper>
-          <Contact></Contact>
+        
+          <Testimonials></Testimonials>
+       
+        <Wrapper className={"mt-32"}>
+          
         </Wrapper>
+        <Contact></Contact>
       </>
     </div>
   );

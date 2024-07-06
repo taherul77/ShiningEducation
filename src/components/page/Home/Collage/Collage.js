@@ -4,11 +4,11 @@ import React from 'react'
 
 const Collage = () => {
     const image1 = "/image/Hokkaido-University.png";
-    const image2 = "/image/Hokkaido-University.png";
-    const image3 = "/image/Hokkaido-University.png";
-    const image4 = "/image/Hokkaido-University.png";
-    const image5 = "/image/Hokkaido-University.png";
-    const image6 = "/image/Hokkaido-University.png";
+    const image2 = "/image/Kyoto-University.png";
+    const image3 = "/image/Kyushu-University.png";
+    const image4 = "/image/Nagoya-University.png";
+    const image5 = "/image/Tohuko-University.png";
+    const image6 = "/image/Tokyo-Institute-of-Technology.png";
     const image7 = "/image/Hokkaido-University.png";
     return (
       <div className="flex  flex-col items-center justify-between py-10  lg:px-24 gap-8">
@@ -24,7 +24,7 @@ const Collage = () => {
                 src={image1}
               />
               <h5 className="text-md lg:text-2xl uppercase font-bold py-5">
-              Kyushu University
+              Hokkaido University
               </h5>
             </div>
             <div className="flex flex-col w-full justify-center items-center text-center">
@@ -36,7 +36,7 @@ const Collage = () => {
                 src={image2}
               />
               <h5 className="text-md lg:text-2xl uppercase font-bold py-5">
-              Hokkaido University
+              Kyoto University
               </h5>
             </div>
   
@@ -49,7 +49,7 @@ const Collage = () => {
                 src={image3}
               />
               <h5 className="text-md lg:text-2xl uppercase font-bold py-5">
-              Kyoto University
+              Kyushu University
               </h5>
             </div>
           </div>
@@ -60,10 +60,10 @@ const Collage = () => {
                 height={600}
                 width={500}
                 alt="Rectangle"
-                src={image1}
+                src={image6}
               />
               <h5 className="text-md lg:text-2xl uppercase font-bold py-5">
-              Kyushu University
+              Tokyo Institute 
               </h5>
             </div>
             <div className="flex flex-col w-full justify-center items-center text-center">
@@ -72,10 +72,10 @@ const Collage = () => {
                 height={600}
                 width={500}
                 alt="Rectangle"
-                src={image2}
+                src={image4}
               />
               <h5 className="text-md lg:text-2xl uppercase font-bold py-5">
-              Hokkaido University
+              Nagoya University
               </h5>
             </div>
   
@@ -85,10 +85,10 @@ const Collage = () => {
                 height={600}
                 width={500}
                 alt="Rectangle"
-                src={image3}
+                src={image5}
               />
               <h5 className="text-md lg:text-2xl uppercase font-bold py-5">
-              Kyoto University
+              Tohuko University
               </h5>
             </div>
           </div>

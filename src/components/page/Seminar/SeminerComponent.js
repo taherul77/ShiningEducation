@@ -1,17 +1,15 @@
-import Image from 'next/image'
-
+import Image from "next/image";
 
 const SeminerComponent = () => {
-    const image1 = "/image/12345678.jpg";
-    const image2 = "/image/12345678.jpg";
-    const image3 = "/image/12345678.jpg";
-    const image4 = "/image/12345678.jpg";
-    const image5 = "/image/12345678.jpg";
-    const image6 = "/image/12345678.jpg";
-    const image7 = "/image/12345678.jpg";
+  const image1 = "/image/12345678.jpg";
+  const image2 = "/image/12345678.jpg";
+  const image3 = "/image/12345678.jpg";
+  const image4 = "/image/12345678.jpg";
+  const image5 = "/image/12345678.jpg";
+  const image6 = "/image/12345678.jpg";
+  const image7 = "/image/12345678.jpg";
   return (
     <main className="flex  flex-col items-center justify-between py-10  lg:px-24 gap-8">
-         
       <>
         <div className="">
           <div className="container flex flex-col  md:flex-row  gap-8 ">
@@ -36,18 +34,14 @@ const SeminerComponent = () => {
               </p>
               <p className="mb-3 font-normal text-gray-700">
                 Contact: +8801764323378
-               
               </p>
-              <p className="mb-3 font-normal text-gray-700">
-              +8801945604616
-               
-              </p>
+              <p className="mb-3 font-normal text-gray-700">+8801945604616</p>
             </div>
           </div>
         </div>
       </>
     </main>
-  )
-}
+  );
+};
 
-export default SeminerComponent
+export default SeminerComponent;

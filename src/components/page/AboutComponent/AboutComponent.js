@@ -42,7 +42,7 @@ const AboutComponent = () => {
               <p className="mb-3 font-normal text-gray-700">
                 With the vision to provide proper & complete consultancy on
                 language efficiency to the interested students & job seekers, we
-                commenced the ”SHINING EDUCATION Japanese Language Center”. You can
+                commenced the ”SHINING EDUCATION”. You can
                 contact us for Japanese Language learning, Student & Job Visa
                 Processing, and job finding purposes. We can ensure the best
                 possible services & it will be a life-changing journey between

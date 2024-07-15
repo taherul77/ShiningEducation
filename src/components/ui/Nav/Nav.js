@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import logos from "../../../../public/image/Logo.png";
+import logos from "../../../../public/image/logo.png";
 import NavItem from "./NavItem"; // Importing NavItem component
 
 import { usePathname } from "next/navigation"; // Importing usePathname hook

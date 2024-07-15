@@ -115,7 +115,7 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <p className="font-bold text-xl text-white">QUICE LINK</p>
+              <p className="font-bold text-xl text-white">FIND US ON GOOGLE</p>
               <ul className="mt-2 space-y-2">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1825.3644242136681!2d90.37188789273623!3d23.79266813711903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c0cca7e99055%3A0x6c616db8bfcb1929!2s810%2C%202a%20W%20Shewrapara%20-%20Ibrahimpur%20Rd%2C%20Dhaka%201216!5e0!3m2!1sen!2sbd!4v1720280518405!5m2!1sen!2sbd"

@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import logos from "../../../../public/image/logo.png";
+import logos from "../../../../public/image/logo2.png";
 import NavItem from "./NavItem"; // Importing NavItem component
 
 import { usePathname } from "next/navigation"; // Importing usePathname hook
@@ -36,8 +36,8 @@ export default function Nav() {
             <Link href={`/`} className="">
               <Image
                 src={logos}
-                width={80}
-                height={60}
+                width={120}
+                height={80}
                 alt="ATI Limited Logo"
               />
             </Link>

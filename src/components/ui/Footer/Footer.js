@@ -1,14 +1,15 @@
+import Image from "next/image";
 import React from "react";
 
 const Footer = () => {
-  const logo = "/image/logo.png";
+  const logo = "/image/logo2.png";
   return (
     <footer className="px-4 divide-y bg-[#1A2D39]">
       <div className=" pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl ">
         <div className="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
           <div className="md:max-w-md lg:col-span-2">
           <div className="flex  h-50 w-50 rounded-full ">
-              <img src={logo} alt="" />
+              <Image src={logo} height={200} width={200} alt="" />
             </div>
             <div className="mt-4 lg:max-w-sm">
               <p className="text-sm text-white">

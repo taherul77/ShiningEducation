@@ -1,7 +1,7 @@
 import React from "react";
 
 const Footer = () => {
-  const logo = "/image/Logo.png";
+  const logo = "/image/logo.png";
   return (
     <footer className="px-4 divide-y bg-[#1A2D39]">
       <div className=" pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl ">

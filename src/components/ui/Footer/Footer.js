@@ -5,10 +5,10 @@ const Footer = () => {
   const logo = "/image/logo2.png";
   return (
     <footer className="px-4 divide-y bg-[#1A2D39]">
-      <div className=" pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl ">
-        <div className="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
-          <div className="md:max-w-md lg:col-span-2">
-          <div className="flex  h-50 w-50 rounded-full ">
+      <div className=" pt-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl ">
+        <div className="grid gap-16 row-gap-10  lg:grid-cols-6">
+          <div className=" lg:col-span-2">
+            <div className="flex justify-center">
               <Image src={logo} height={200} width={200} alt="" />
             </div>
             <div className="mt-4 lg:max-w-sm">
@@ -22,20 +22,33 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
+          <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4 pt-10">
             <div>
-              <p className="font-bold text-xl text-white">
-              CONTACT INFO
-              </p>
+              <p className="font-bold text-xl text-white">CONTACT INFO</p>
               <ul className="mt-2 space-y-2">
                 <li>
                   <a
                     href="/"
                     className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
-                     +8801764323378
-                     
+                    +8801764323378
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/"
+                    className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
+                  >
+                    +8801945604616
+                  </a>
+                </li>
 
+                <li>
+                  <a
+                    href="/"
+                    className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
+                  >
+                    SHINING EDUCATION
                   </a>
                 </li>
                 <li>
@@ -43,27 +56,7 @@ const Footer = () => {
                     href="/"
                     className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
-                     +8801945604616
- 
-                  </a>
-                </li>
-               
-                <li>
-                  <a
-                    href="/"
-                    className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
-                  >
-                     SHINING EDUCATION
-                     
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
-                  >
-                     810/2, West Shewrapara ( Bus Stand ), Mirpur, Dhaka - 1216
-                     
+                    810/2, West Shewrapara ( Bus Stand ), Mirpur, Dhaka - 1216
                   </a>
                 </li>
                 <li>
@@ -72,15 +65,12 @@ const Footer = () => {
                     className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
                     shiningeducation.bd@gmail.com
-
                   </a>
                 </li>
               </ul>
             </div>
             <div>
-              <p className="font-bold text-xl text-white">
-              QUICE LINK
-              </p>
+              <p className="font-bold text-xl text-white">QUICE LINK</p>
               <ul className="mt-2 space-y-2">
                 <li>
                   <a
@@ -88,7 +78,6 @@ const Footer = () => {
                     className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
                     About Us
-
                   </a>
                 </li>
                 <li>
@@ -97,7 +86,6 @@ const Footer = () => {
                     className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
                     Contact Us
-
                   </a>
                 </li>
                 <li>
@@ -106,7 +94,6 @@ const Footer = () => {
                     className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
                     Seminar
-
                   </a>
                 </li>
                 <li>
@@ -115,7 +102,6 @@ const Footer = () => {
                     className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
                     Apply Now
-                   
                   </a>
                 </li>
                 <li>
@@ -123,17 +109,17 @@ const Footer = () => {
                     href="/"
                     className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
-                     Blog
+                    Blog
                   </a>
                 </li>
               </ul>
             </div>
-           
           </div>
         </div>
         <div className="flex flex-col justify-between pt-5 pb-10 border-t sm:flex-row">
           <p className="text-sm text-white">
-          Copyright © 2024 SHINING EDUCATION | Developed by SK TAHERUL ISLAM TAZ
+            Copyright © 2024 SHINING EDUCATION | Developed by SK TAHERUL ISLAM
+            TAZ
           </p>
           <div className="flex items-center mt-4 space-x-4 sm:mt-0">
             <a

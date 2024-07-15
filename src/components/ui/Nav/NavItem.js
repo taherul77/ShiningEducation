@@ -124,7 +124,7 @@ export default function NavItem() {
   );
 
   return (
-    <ul className="items-stretch hidden space-x-3 text-white lg:flex">
+    <ul className="items-stretch hidden space-x-3 text-black lg:flex">
       {navItem}
     </ul>
   );

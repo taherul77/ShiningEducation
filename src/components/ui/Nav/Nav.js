@@ -27,16 +27,16 @@ export default function Nav() {
       {/* Navigation bar */}
       <nav
         className={`
-          shadow-lg w-full fixed bg-black/30 top-0 z-50 backdrop-blur 
+          shadow-lg w-full fixed bg-white/50 top-0 z-50 backdrop-blur 
         `}
       >
-        <div className="mx-auto max-w-7xl px-6 py-2">
+        <div className="mx-auto max-w-7xl  ">
           <div className="flex items-center justify-between mx-auto">
             {/* Logo with link */}
             <Link href={`/`} className="">
               <Image
                 src={logos}
-                width={120}
+                width={130}
                 height={80}
                 alt="ATI Limited Logo"
               />
@@ -51,7 +51,7 @@ export default function Nav() {
 
             {/* Mobile menu toggle button */}
             <div className="flex  items-center z-50">
-              <div className="items-center text-white hidden lg:flex">
+              <div className="items-center text-black hidden lg:flex">
                 {/* Revolution link */}
                 <Link
                   href={`/contacts`}
@@ -101,7 +101,7 @@ export default function Nav() {
 
       {/* Mobile navigation menu */}
       {isNavOpen && (
-        <div className="w-full h-4/6 flex flex-col justify-center items-center fixed bg-black text-white lg:hidden top-[6.5rem] z-50 animate-slide-in-left px-6">
+        <div className="w-full h-4/6 flex flex-col justify-center items-center fixed bg-black text-black lg:hidden top-[6.5rem] z-50 animate-slide-in-left px-6">
           <div className="flex flex-col justify-center items-center  ">
             {/* Navigation links */}
             <li className="flex">

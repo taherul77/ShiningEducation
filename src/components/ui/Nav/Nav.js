@@ -101,7 +101,7 @@ export default function Nav() {
 
       {/* Mobile navigation menu */}
       {isNavOpen && (
-        <div className="w-full h-4/6 flex flex-col justify-center items-center fixed bg-black text-black lg:hidden top-[6.5rem] z-50 animate-slide-in-left px-6">
+        <div className="w-full h-4/6 flex flex-col justify-center items-center fixed bg-white text-black lg:hidden top-[6.5rem] z-50 animate-slide-in-left px-6">
           <div className="flex flex-col justify-center items-center  ">
             {/* Navigation links */}
             <li className="flex">

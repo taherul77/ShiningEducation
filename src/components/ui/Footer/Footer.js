@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -74,23 +75,23 @@ const Footer = () => {
               <ul className="mt-2 space-y-2">
                 <li>
                   <a
-                    href="/"
+                    href="/about-us"
                     className="text-black transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
                     About Us
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    href="/contacts"
                     className="text-black transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
                     Contact Us
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a
-                    href="/"
+                    href="/seminar"
                     className="text-black transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
                     Seminar
@@ -98,7 +99,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="/"
+                    href="/apply-now"
                     className="text-black transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
                     Apply Now
@@ -106,7 +107,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="/"
+                    href="/blog"
                     className="text-black transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
                     Blog

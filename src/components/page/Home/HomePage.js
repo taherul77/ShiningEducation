@@ -7,6 +7,7 @@ import Contact from "./Contact/Contact";
 import Wrapper from "@/components/ui/Wrapper/Wrapper";
 import Collage from "./Collage/Collage";
 import Testimonials from "./Testimonials/Testimonials";
+import Gallery from "./Gallery/Gallery";
 
 const HomePage = () => {
   return (
@@ -20,19 +21,21 @@ const HomePage = () => {
         <Wrapper>
           <About></About>
         </Wrapper>
+
+       
         <Wrapper>
           <Success></Success>
         </Wrapper>
+        <Gallery></Gallery>
         <Wrapper>
           <Collage></Collage>
         </Wrapper>
         
-          <Testimonials></Testimonials>
-       
-        <Wrapper className={"mt-32"}>
-          
-        </Wrapper>
+        <Testimonials></Testimonials>
+
+        <Wrapper className={"mt-32"}></Wrapper>
         <Contact></Contact>
+        
       </>
     </div>
   );

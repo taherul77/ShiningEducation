@@ -4,6 +4,7 @@ import HomeNavigation from "../HomeNavigation/HomeNavigation";
 import Section from "@/components/ui/Section/Section";
 
 const Gallery = () => {
+
   const image1 =
     "/image/New folder/WhatsApp Image 2024-09-12 at 10.38.54 AM.jpeg";
   const image2 =
@@ -69,9 +70,9 @@ const Gallery = () => {
         </div>
       </div> */}
 
-        <div className="flex justify-center items-center text-md  lg:text-2xl  font-bold py-10 ">
+        {/* <div className="flex justify-center items-center text-md  lg:text-2xl  font-bold py-10 ">
           <Section heading={"Our Gallery"}></Section>
-        </div>
+        </div> */}
       <HomeNavigation></HomeNavigation>
     </>
   );

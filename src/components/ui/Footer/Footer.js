@@ -57,7 +57,7 @@ const Footer = () => {
                     href="/"
                     className="text-black transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
-                    810/2, West Shewrapara ( Bus Stand ), Mirpur, Dhaka - 1216
+                    H# 677 (3RD FLOOR), WEST SHEWRAPARA, MIRPUR, DHAKA-1216
                   </a>
                 </li>
                 <li>
@@ -132,7 +132,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col justify-between pt-5 pb-10 border-t border-black sm:flex-row">
           <p className="text-sm text-black">
-            Copyright © 2024 SHINING EDUCATION | Developed by SK TAHERUL ISLAM
+            Copyright © {new Date().getFullYear()} SHINING EDUCATION | Developed by SK TAHERUL ISLAM
             TAZ
           </p>
           <div className="flex items-center mt-4 space-x-4 sm:mt-0">

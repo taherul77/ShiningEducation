@@ -29,7 +29,7 @@ const ContactComponent = () => {
 
           <h2 className="mt-4 text-xl font-medium text-black ">Our Address</h2>
           <p className="mt-2 text-md text-gray-700 ">
-            810/2 , West Shewrapara, Mirpur, Dhaka- 1216
+            H# 677 (3RD FLOOR), WEST SHEWRAPARA, MIRPUR, DHAKA-1216
           </p>
         </div>
 
